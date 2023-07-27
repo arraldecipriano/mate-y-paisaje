@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Mate y Paisaje</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<header>
+		<h1>Mate y Paisaje</h1>
+
+		<div class="container-icon">
+			<div class="container-cart-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+					stroke="currentColor" class="icon-cart">
+					<path stroke-linecap="round" stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+			</div>
+
+			<div class="container-cart-products hidden-cart">
+				<!-- <button class="btn-confirmar-compra">Confirmar compra</button> -->
+				<div class="row-product hidden">
+					<div class="cart-product">
+						<div class="info-cart-product">
+							<span class="cantidad-producto-carrito">1</span>
+							<p class="titulo-producto-carrito">Camionero Buffalo</p>
+							<span class="precio-producto-carrito">$0</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+							stroke="currentColor" class="icon-close">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					</div>
+				</div>
+
+				<div class="cart-total hidden">
+					<h3>Total:</h3>
+					<span class="total-pagar">$0</span>
+				</div>
+				<p class="cart-empty">El carrito está vacío</p>
+			</div>
+		</div>
+	</header>
+	<div class="container-items">
+		<div class="item">
+			<figure>
+				<img src="./img/camionero-buffalo.jpg" alt="camionero-buffalo" />
+			</figure>
+			<div class="info-product">
+				<h2>Camionero Buffalo</h2>
+				<p class="price">$8500</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/clasico-cuero-estampado.jpg" alt="clasico-cuero-estampado" />
+			</figure>
+			<div class="info-product">
+				<h2>Clásico Cuero Estampado</h2>
+				<p class="price">$9500</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/imperial-acero-pampa.jpg" alt="imperial-acero-pampa" />
+			</figure>
+			<div class="info-product">
+				<h2>Imperial Acero Pampa</h2>
+				<p class="price">$13500</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/imperial-copa-flor.jpg" alt="imperial-copa-flor" />
+			</figure>
+			<div class="info-product">
+				<h2>Imperial Copa Flor</h2>
+				<p class="price">$12750</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/clasico-acero.jpg" alt="clasico-acero" />
+			</figure>
+			<div class="info-product">
+				<h2>Clásico Acero</h2>
+				<p class="price">$7800</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/clasico-repujado.jpg" alt="clasico-repujado" />
+			</figure>
+			<div class="info-product">
+				<h2>Clásico Repujado</h2>
+				<p class="price">$8400</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/clasico-cincel.jpg" alt="clasico-cincelado" />
+			</figure>
+			<div class="info-product">
+				<h2>Clásico Cincelado</h2>
+				<p class="price">$9000</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/camionero-cincel-bronce.jpg" alt="camionero-cincel-bronce" />
+			</figure>
+			<div class="info-product">
+				<h2>Camionero Cincelado Bronce</h2>
+				<p class="price">$10000</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/chata-curva.jpg" alt="bombilla-chata-curva" />
+			</figure>
+			<div class="info-product">
+				<h2>Bombilla Chata Curva</h2>
+				<p class="price">$5500</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/chata-resorte.jpg" alt="bombilla-chata-resorte" />
+			</figure>
+			<div class="info-product">
+				<h2>Bombilla Chata Resorte</h2>
+				<p class="price">$4000</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img src="./img/chata-guarda.jpg" alt="bombilla-chata-guarda" />
+			</figure>
+			<div class="info-product">
+				<h2>Bombilla Chata Guarda</h2>
+				<p class="price">$4800</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./img/pico-loro.jpg" alt="bombilla-pico-loro" />
+			</figure>
+			<div class="info-product">
+				<h2>Bombilla Pico Loro</h2>
+				<p class="price">$6400</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="index.js"></script>
+
+	<script src="catalogo.js"></script>
+
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

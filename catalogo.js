@@ -1,0 +1,25 @@
+// guardo el catalogo actual   en localStorage
+
+let catalogo = [
+    { id: 1, producto: "camionero buffalo", precio: 8500 },
+    { id: 2, producto: "clasico cuero estampado", precio: 9500 },
+    { id: 3, producto: "imperial acero pampa", precio: 13500 },
+    { id: 4, producto: "imperial copa flor", precio: 12750 },
+    { id: 5, producto: "clasico acero", precio: 7800 },
+    { id: 6, producto: "clasico repujado", precio: 8400 },
+    { id: 7, producto: "clasico cincelado", precio: 9000 },
+    { id: 8, producto: "camionero cincelado bronce", precio: 10000 },
+    { id: 9, producto: "bombilla chata curva", precio: 5500 },
+    { id: 10, producto: "bombilla chata resorte", precio: 4000 },
+    { id: 11, producto: "bombilla chata guarda", precio: 4800 },
+    { id: 12, producto: "bombilla pico loro", precio: 6400 }]
+
+const saveLocal = (clave, valor) => (localStorage.setItem(clave, valor));
+
+saveLocal("catalogo", JSON.stringify(catalogo));
+
+
+
+
+// localStorage.removeItem("todoProductos");
+
